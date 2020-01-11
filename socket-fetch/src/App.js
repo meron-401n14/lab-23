@@ -44,7 +44,7 @@ function App() {
        ? photos.map((val, ind)=>{
       return (
         <div className='col' key={ind}> 
-         <img height={val.height} width={val.width} src={val.url} alt={val.photographer} /> 
+         <img   src={val.src.small} alt={val.photographer} /> 
          </div>
          );
 }) 

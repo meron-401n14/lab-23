@@ -7,7 +7,7 @@
 ### Links and Resources
 * [submission PR](https://github.com/meron-401n14/lab-23/pull/1)
 * codesandbox](https://codesandbox.io/s/cranky-shaw-u0977)
-* [Heroku](https://lab-13app.herokuapp.com/)
+* [travis](https://lxyz.com/)
 
 
 #### Documentation

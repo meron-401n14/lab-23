@@ -22,8 +22,12 @@
 
 
 ### Setup
+
+* current status of this app
+* ![guid-to-search-photos](search-by-query.JPG)
 #### `.env` requirements
 * `PORT` - 3000
+
 * `Authorization`:563492ad6f9170000100000130c44fce1766475e80aef145359fa641
 
 #### Running the app

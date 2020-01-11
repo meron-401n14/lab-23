@@ -1,0 +1,16 @@
+
+.row{
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  .col{
+      flex-basis:25%;
+      flex-grow:1;
+      flex-shrink:1;
+
+
+  }
+}
+

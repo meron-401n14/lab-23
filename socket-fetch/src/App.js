@@ -1,24 +1,56 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import useDocumentTitle from './Component/useDocumentTitle';
+import useLocalStorage from './Component/useLocalStorage';
+import usePexelsPhotos from './Component/usePexelsPhotos';
+import './Styles/styles.scss';
+
+
 
 function App() {
+  const [name, setName] = useState('Sarah Smalls');
+  const [size, setSize] = useLocalStorage('lsSize', 3);
+  const [query, setQuery] = useState('');
+  const photos = usePexelsPhotos(query);
+  console.log(photos);
+
+
+
+
+  useDocumentTitle(name);
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <input type='text' value={name} onChange={e =>{
+        setName(e.target.value);
+ }}
+   /> 
+   <input
+        type='number'
+        value= {size}
+        onChange={e=>{
+          setSize(e.target.value);
+        }}
+        />
+
+    <input 
+    type='text'
+    value ={query}
+    onChange = {e => {
+      setQuery(e.target.value)
+}}
+/>
+<div className= 'row' >
+  {photos 
+       ? photos.map((val, ind)=>{
+      return (
+        <div className='col' key={ind}> 
+         <img height={val.height} width={val.width} src={val.url} alt={val.photographer} /> 
+         </div>
+         );
+}) 
+: ''}
+</div>
+
     </div>
   );
 }

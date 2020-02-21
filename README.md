@@ -19,6 +19,11 @@
 * useLocalSotorage
 * usePexelPhotos
 * useDocumentTitle
+* main.js
+* Photo.js
+* Nav.js
+* Socket.js
+
 
 
 ### Setup
@@ -29,7 +34,7 @@
 
 
 #### UML
-* ![UML](socket&Photo.jpg)
+* ![UML](Photo&Socket.jpg)
 
 
 

@@ -6,8 +6,8 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/meron-401n14/lab-23/pull/2)
-* [codesandbox](https://codesandbox.io/s/cranky-shaw-u0977)
-* [travis](https://lxyz.com/)
+* [codesandbox](https://codesandbox.io/s/vigorous-haze-o047e)
+* [travis](https://travis-ci.com/meron-401n14/lab-23/builds/149921335)
 
 
 #### Documentation

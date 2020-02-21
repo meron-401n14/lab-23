@@ -3,7 +3,11 @@ import {useState, useEffect} from 'react';
 import fetch from 'node-fetch';
 //const { toArray } = require('util');
 
-
+/**
+ * A component which fetch data from API pexeles.com 
+ * and return json data based of query 
+ * and export usePexelsPhotos component 
+ */
 
 
 const API_KEY = '563492ad6f91700001000001baf1bd40e4ef4d9fbb65204f4377abf9'
@@ -24,22 +28,21 @@ const usePexelsPhotos = query => {
   useEffect(() => {
     async function fetchIt() {
       let res = await fetch(url, apiOptions);
-
-      
       let json = await res.json();
-      
       setResponse(json.photos);
     }
-     
-     
+    fetchIt();
+},[query, url]);
 
-      fetchIt();
-  },[query, url]);
-
-  return response;
+return response;
 
 };
 
 
 
 export default usePexelsPhotos;
+
+      
+      
+     
+     

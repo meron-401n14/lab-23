@@ -23,11 +23,15 @@ io.on('connection', socket => {
             socketPool[val].emit('read message', data);
         });
     });
+
+   
+
+  
+ 
 });
 
-const listenCb = () =>
-    console.table([
-        ['status', 'port'],
-        ['started', port],
-    ]);
+const listenCb = () =>{
+    console.log('Listening!')
+}
+    
 server.listen(port, listenCb);

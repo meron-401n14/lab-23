@@ -1,6 +1,12 @@
 
 import { useState, useEffect } from "react";
 
+/**
+ * a component which update local storage size with key value 
+ * @param {object} key 
+ * @param {object} defaultValue 
+ */
+
 function getInitialValue(key, defaultValue){
   let value;
   try {

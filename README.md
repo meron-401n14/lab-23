@@ -1,4 +1,4 @@
-# LAB - 
+# LAB - 23
 
 ## Project: soket-fetch
 
@@ -22,20 +22,16 @@
 
 
 ### Setup
-
-* current status of this app
-* ![guid-to-search-photos](search-by-query.JPG)
-#### `.env` requirements
-* `PORT` - 3000
-
-* `Authorization`:563492ad6f9170000100000130c44fce1766475e80aef145359fa641
-
-#### Running the app
-* `npm start`
-
-  
-#### Tests
+// to run socket server
+* Socket.io server is  `cd server.js `
+* to start socket server use 
+* `node start`  // localhost:3005 
 
 
 #### UML
-Link to an image of the UML for your application and response to events
+* ![UML](socket&Photo.jpg)
+
+
+
+
+

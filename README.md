@@ -5,6 +5,7 @@
 ### Author: Meron
 
 ### Links and Resources
+* [Netlify](https://modest-kepler-1e24ae.netlify.com)
 * [submission PR](https://github.com/meron-401n14/lab-23/pull/2)
 * [codesandbox](https://codesandbox.io/s/vigorous-haze-o047e)
 * [travis](https://travis-ci.com/meron-401n14/lab-23/builds/149921335)

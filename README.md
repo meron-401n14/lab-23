@@ -34,7 +34,7 @@
 
 
 #### UML
-* ![UML](Photo&Socket.jpg)
+* ![UML](UML.jpg)
 
 
 
